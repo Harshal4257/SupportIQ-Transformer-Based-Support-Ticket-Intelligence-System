@@ -1,0 +1,65 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Local data and generated ML artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+reports/figures/*
+reports/metrics/*
+!reports/figures/.gitkeep
+!reports/metrics/.gitkeep
+runs/
+wandb/
+
+# Tests, coverage, and packaging output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
+
+# Logs, temporary files, and local archives
+*.log
+*.tmp
+*.temp
+*.zip
+*.tar
+*.tar.gz
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
