@@ -16,3 +16,4 @@ streamlit>=1.41,<2
 torch>=2.2,<3
 transformers>=4.47,<6
 uvicorn[standard]>=0.34,<1
+python
